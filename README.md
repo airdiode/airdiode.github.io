@@ -3,7 +3,7 @@
 GitHub Pages 的用户站点，对应 <https://airdiode.github.io/>。
 仓库名必须是 `airdiode.github.io`，Pages 才会挂在根域名上。
 
-主页只放**一件产品**：孤云（站点在另一个仓库 `airdiode/Guyun`）。
+主页放**两件作品**：孤云（站点在 `airdiode/Guyun`）、风雨如磐（站点在 `airdiode/Fengyu`，预告页）。
 两个产品站点的旧仓库已随旧账号一起删除，这里不再引用它们。
 
 ## 文件

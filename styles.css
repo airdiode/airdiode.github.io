@@ -237,6 +237,7 @@ code {
 }
 
 .card-guyun { --accent: var(--guyun); --accent-soft: var(--guyun-soft); }
+.card-fengyu { --accent: #8a5a3b; --accent-soft: #f3ece4; }
 /* 只有一件产品时，卡片整行铺开：左边叙事、右边事实与入口 */
 .card-wide {
   grid-column: 1 / -1;

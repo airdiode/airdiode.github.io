@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="风雨如磐">
+  <rect width="64" height="64" rx="14" fill="#faf8f2" stroke="#e6ddcd" stroke-width="1"/>
+  <g fill="none" stroke="#8a5a3b" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 45 L24.5 26 L33 37.5 L41 23 L51 45"/>
+  </g>
+  <path d="M12 52 H52" stroke="#8a5a3b" stroke-width="2.4" stroke-linecap="round" stroke-opacity=".38" fill="none"/>
+</svg>
