@@ -7,6 +7,7 @@ GitHub Pages 的用户站点，对应 <https://airdiode.github.io/>。
 
 - 题头：一句「欢迎来到 JIANG HUI 的产品集」，下面两个入口——GitHub 与个人官网 godar.cn
 - 产品：三行清单（`.product-list`），每行是图标 + 名称 + 一句说明 + 箭头
+- 联系（`#contact`）：邮箱 + 小红书二维码（`assets/xhs-qr.png`，码指向 `xhslink.com/m/8WSrYCLF1yk`）
 - 页脚：一行版权与链接
 
 | 产品 | 站点 |
@@ -30,6 +31,7 @@ assets/og-en.png  英文分享卡片图
 assets/guyun-icon.png   孤云的应用图标
 assets/fengyu-mark.svg  风雨如磐的标志
 assets/quileg-stm32.svg Quileg STM32 的图标
+assets/xhs-qr.png       小红书二维码（从主页名片裁出、二值化过）
 og.html           og.png 的源文件，用浏览器截图得到，不对外链接
 og-en.html        og-en.png 的源文件
 ```

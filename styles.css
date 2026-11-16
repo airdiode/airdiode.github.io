@@ -538,7 +538,7 @@ code {
 .intro-links a { color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 2px; }
 .intro-links a:hover { color: var(--ink); border-color: currentColor; }
 
-#products { padding-top: 28px; }
+#products { padding-top: 28px; padding-bottom: 16px; }
 
 .product-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
 .product-list li { border-bottom: 1px solid var(--line); }
@@ -560,3 +560,24 @@ code {
 .footer-line a { color: var(--muted); }
 .footer-line a:hover { color: var(--ink); }
 .footer-line > span:first-child { margin-right: auto; }
+
+/* ---------- 联系 ---------- */
+
+.contact { padding-top: 40px; padding-bottom: 72px; }
+
+.contact-row { display: flex; align-items: center; gap: 40px; }
+
+.contact-row h2 { margin: 0 0 10px; font-size: 19px; letter-spacing: -0.3px; }
+.contact-mail { margin: 0 0 6px; font-size: 15px; }
+.contact-mail a { border-bottom: 1px solid var(--line); padding-bottom: 2px; }
+.contact-mail a:hover { border-color: currentColor; }
+.contact-meta { margin: 0; font-size: 13.5px; color: var(--muted); }
+
+.qr { display: flex; align-items: center; gap: 14px; margin-left: auto; color: var(--muted); font-size: 13.5px; }
+.qr img { width: 128px; height: 128px; padding: 8px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.qr:hover { color: var(--ink); }
+
+@media (max-width: 760px) {
+  .contact-row { flex-direction: column; align-items: flex-start; gap: 20px; }
+  .qr { margin-left: 0; }
+}
