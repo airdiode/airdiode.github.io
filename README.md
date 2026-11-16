@@ -31,7 +31,7 @@ assets/og-en.png  英文分享卡片图
 assets/guyun-icon.png   孤云的应用图标
 assets/fengyu-mark.svg  风雨如磐的标志
 assets/quileg-stm32.svg Quileg STM32 的图标
-assets/xhs-qr.png       小红书二维码（从主页名片裁出、二值化过）
+assets/xhs-qr.png       小红书二维码（带中心 logo 的官方码，512px）
 og.html           og.png 的源文件，用浏览器截图得到，不对外链接
 og-en.html        og-en.png 的源文件
 ```
