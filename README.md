@@ -3,24 +3,27 @@
 GitHub Pages 的用户站点，对应 <https://airdiode.github.io/>。
 仓库名必须是 `airdiode.github.io`，Pages 才会挂在根域名上。
 
-主页是**三件作品**的索引：
+主页只做一件事：**罗列产品**，不写总结也不写分析。
 
-| 作品 | 站点 | 状态 |
-|---|---|---|
-| 孤云 Guyun | `/Guyun/`（仓库 `airdiode/Guyun`） | 已上架 |
-| 风雨如磐 Fengyu | `/Fengyu/`（仓库 `airdiode/Fengyu`） | 预告，在建 |
-| Quileg STM32 | `/Quileg-STM32/`（仓库 `airdiode/Quileg-STM32`） | 开源归档 |
+- 题头：一句「欢迎来到 JIANG HUI 的产品集」，下面两个入口——GitHub 与个人官网 godar.cn
+- 产品：三行清单（`.product-list`），每行是图标 + 名称 + 一句说明 + 箭头
+- 页脚：一行版权与链接
 
-每件作品一张通栏卡（`.card-wide`）：左边图标 + 名称 + 一句话 + 说明，右边列事实与入口。
-三张卡各有一个强调色：青绿（孤云）、赭石（风雨如磐）、蓝（STM32）。
-状态写在 kicker 那一行（已上架 / 公开预告 / 已归档），不加额外的徽章。
+| 产品 | 站点 |
+|---|---|
+| 孤云 Guyun | `/Guyun/`（仓库 `airdiode/Guyun`） |
+| 风雨如磐 | `/Fengyu/`（仓库 `airdiode/Fengyu`） |
+| Quileg STM32 | `/Quileg-STM32/`（仓库 `airdiode/Quileg-STM32`） |
+
+加一个产品：在 `<ul class="product-list">` 里复制一个 `<li>`，填名称、一句说明和链接即可；
+不用动 hero 与页脚（页脚只有版权和两个外链）。
 
 ## 文件
 
 ```
 index.html        中文主页（默认，挂在根域名）
 en/index.html     英文主页，同一套版式与样式
-styles.css        全部样式，含深色模式、页脚、.card-wide（单卡整行铺开）
+styles.css        全部样式，含深色模式、产品清单与页脚
 assets/mark.svg   站点标记（青绿两方块）与 favicon
 assets/og.png     中文分享卡片图 1200×630
 assets/og-en.png  英文分享卡片图
