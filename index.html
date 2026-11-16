@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>airdiode — 一件小工具，数据留在你手里</title>
-<meta name="description" content="孤云 Guyun：把你的文件放回自己的对象存储。iPhone / iPad / Mac，应用免费，没有账号，也没有中转服务器。">
+<title>JIANG HUI 的产品集</title>
+<meta name="description" content="JIANG HUI 的产品集：孤云 Guyun、风雨如磐、Quileg STM32。">
 <meta name="theme-color" content="#fbfaf8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1113" media="(prefers-color-scheme: dark)">
 <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
 <link rel="apple-touch-icon" href="assets/mark.svg">
 <link rel="stylesheet" href="styles.css">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="airdiode">
-<meta property="og:title" content="airdiode — 一件小工具，数据留在你手里">
-<meta property="og:description" content="孤云 Guyun：把你的文件放回自己的对象存储。应用免费，没有账号，也没有中转服务器。">
+<meta property="og:site_name" content="JIANG HUI">
+<meta property="og:title" content="JIANG HUI 的产品集">
+<meta property="og:description" content="孤云 Guyun、风雨如磐、Quileg STM32。">
 <meta property="og:url" content="https://airdiode.github.io/">
 <meta property="og:image" content="https://airdiode.github.io/assets/og.png">
 <meta property="og:locale" content="zh_CN">
@@ -35,9 +35,6 @@
       <span>airdiode</span>
     </a>
     <nav>
-      <a href="#products">作品</a>
-      <a href="#how">做法</a>
-      <a href="#about">关于</a>
       <a class="gh" href="https://github.com/airdiode">GitHub</a>
       <a class="lang" href="en/" hreflang="en" lang="en">English</a>
     </nav>
@@ -46,175 +43,53 @@
 
 <main id="main">
 
-  <!-- ============ HERO ============ -->
-  <section class="hero">
+  <section class="hero hero-simple">
     <div class="wrap">
-      <p class="eyebrow">工具 · 底图 · 开源 · 2026</p>
-      <h1>两件工具，<br>一张可以自己翻的<em>底图</em>。</h1>
-      <p class="lede">
-        孤云把文件放回你自己的桶，风雨如磐把近代中国摊成一张按年翻的地图，
-        Quileg STM32 是前两代硬件的开源归档。
+      <h1>欢迎来到<br>JIANG HUI 的产品集</h1>
+      <p class="intro-links">
+        <a href="https://github.com/airdiode">GitHub 主页 <span aria-hidden="true">↗</span></a>
+        <a href="https://www.godar.cn/">个人官网 godar.cn <span aria-hidden="true">↗</span></a>
       </p>
-      <ul class="stats">
-        <li><b>3</b> 件作品</li>
-        <li><b>都</b> 免费</li>
-        <li><b>无</b> 账号</li>
-        <li><b>1</b> 份开源</li>
-      </ul>
     </div>
   </section>
 
-  <!-- ============ PRODUCTS ============ -->
   <section id="products" class="section">
     <div class="wrap">
-      <div class="section-head">
-        <h2>作品</h2>
-        <p>两件在做的，一份收起来的。</p>
-      </div>
+      <ul class="product-list">
 
-      <div class="cards">
-
-        <article class="card card-guyun card-wide">
-          <div class="arch-main">
-            <div class="card-top">
-              <img class="app-icon" src="assets/guyun-icon.png" alt="孤云 Guyun 应用图标" width="56" height="56">
-              <div>
-                <p class="kicker">iPhone · iPad · Mac</p>
-                <h3>孤云 Guyun</h3>
-              </div>
-            </div>
-            <p class="tagline">你的文件，就在你自己的桶里</p>
-            <p class="desc">
-              连上你自己的对象存储——阿里云 OSS、腾讯云 COS、Cloudflare R2、Backblaze B2、
-              MinIO，或任何 S3 兼容服务。没有账号体系，密钥只留在这台设备的钥匙串里；
-              文件从设备直达你的桶，中间没有我的服务器。
-            </p>
-          </div>
-          <div class="arch-side">
-            <ul class="facts">
-              <li>iOS 17 / iPadOS 17 / macOS 14 及以上</li>
-              <li>1.5 起可接入你自己的 AI 客户端</li>
-              <li>应用免费，存储按服务商牌价</li>
-              <li>没有中转服务器，文件从设备直达你的桶</li>
-            </ul>
-            <div class="card-actions">
-              <a class="go" href="https://airdiode.github.io/Guyun/">打开官网 <span aria-hidden="true">→</span></a>
-              <a class="alt" href="https://apps.apple.com/cn/app/id6809848348">App Store</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="card card-fengyu card-wide">
-          <div class="arch-main">
-            <div class="card-top">
-              <img class="app-icon" src="assets/fengyu-mark.svg" alt="风雨如磐标记" width="56" height="56">
-              <div>
-                <p class="kicker">项目 · 公开预告</p>
-                <h3>风雨如磐</h3>
-              </div>
-            </div>
-            <p class="tagline">一个近代中国的信息底图</p>
-            <p class="desc">
-              把 1840 年以后的疆域、机构、人物、灾荒、报刊与铁路放进同一张可以按年翻的地图：
-              条约割让面按签订年出现，专题可以当文章读，每条都带着出处。
-              它不替谁讲故事——把材料摆好，判断留给读史的人。
-            </p>
-          </div>
-          <div class="arch-side">
-            <ul class="facts">
-              <li>1,532 条条目、736 种出处、23 个专题</li>
-              <li>清代疆域与治理已收口，正在铺清末</li>
-              <li>民国刚起步，尚未成线</li>
-              <li>边界属重建与示意，不是测绘</li>
-            </ul>
-            <div class="card-actions">
-              <a class="go" href="https://airdiode.github.io/Fengyu/">打开主页 <span aria-hidden="true">→</span></a>
-              <a class="alt" href="https://github.com/airdiode/Fengyu">GitHub</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="card card-stm32 card-wide">
-          <div class="arch-main">
-            <div class="card-top">
-              <img class="app-icon" src="assets/quileg-stm32.svg" alt="Quileg STM32 图标" width="56" height="56">
-              <div>
-                <p class="kicker">开源 · 2024–2025 · 已归档</p>
-                <h3>Quileg STM32</h3>
-              </div>
-            </div>
-            <p class="tagline">让电脑自己动手</p>
-            <p class="desc">
-              一台以标准 USB 键鼠身份工作的小设备：流程在网页里编排，经串口发给板子，
-              固件把它变成真实的按键与位移。目标软件不需要任何接口，电脑上也不用装客户端。
-              前两代的固件、网页上位机与串口协议，按当年最终版本以 MIT 开源。
-            </p>
-          </div>
-          <div class="arch-side">
-            <ul class="facts">
-              <li>MIT 许可 · STM32F103C8T6</li>
-              <li>已停止维护，只作学习与复刻</li>
-              <li>网站与源码都已归档，不再更新</li>
-            </ul>
-            <div class="card-actions">
-              <a class="go" href="https://airdiode.github.io/Quileg-STM32/">打开归档站 <span aria-hidden="true">→</span></a>
-              <a class="alt" href="https://github.com/airdiode/Quileg-STM32">源码</a>
-            </div>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ HOW ============ -->
-  <section id="how" class="section">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>做法</h2>
-        <p>孤云是这么做的：能少一层服务器，就少一层。</p>
-      </div>
-
-      <ol class="principles">
         <li>
-          <span class="num">01</span>
-          <h3>本地优先</h3>
-          <p>请求从这台设备直达你自己的桶，中间没有我的服务器。桶在哪、用哪个服务商，都由你决定。</p>
+          <a href="https://airdiode.github.io/Guyun/">
+            <img src="assets/guyun-icon.png" alt="" width="40" height="40">
+            <span class="pl-text">
+              <span class="pl-name">孤云 Guyun</span>
+              <span class="pl-desc">你自己的对象存储 · iPhone / iPad / Mac</span>
+            </span>
+            <span class="pl-go" aria-hidden="true">→</span>
+          </a>
         </li>
-        <li>
-          <span class="num">02</span>
-          <h3>不碰你的数据</h3>
-          <p>没有账号体系、没有遥测、没有我们的服务器；密钥只留在这台设备的钥匙串里。</p>
-        </li>
-        <li>
-          <span class="num">03</span>
-          <h3>应用免费</h3>
-          <p>应用本身不收费。要付的只有你自己那笔存储账单，按服务商牌价，不经我的手。</p>
-        </li>
-      </ol>
-    </div>
-  </section>
 
-  <!-- ============ ABOUT ============ -->
-  <section id="about" class="section about">
-    <div class="wrap about-grid">
-      <div>
-        <h2>关于</h2>
-        <p>
-          这里放的是我做的东西。孤云解决的是同一类问题：把原本要交给别人服务器的事，
-          放回你自己的设备上。风雨如磐是另一路：把近代中国的材料整理成一张可以自己翻的底图，
-          不做宏大叙事，也不做屈辱史，判断留给读史的人。Quileg STM32 则更早一点：
-          前两代的键鼠模拟器按原样开源归档，只作学习与复刻。
-        </p>
-        <p class="muted">
-          用起来有问题，或者想要什么功能，去 GitHub 提 issue 最直接。
-        </p>
-      </div>
-      <ul class="links">
-        <li><a href="https://github.com/airdiode"><span>GitHub</span><span class="arrow" aria-hidden="true">↗</span></a></li>
-        <li><a href="https://github.com/airdiode/Guyun"><span>孤云网站仓库</span><span class="arrow" aria-hidden="true">↗</span></a></li>
-        <li><a href="https://github.com/airdiode/Fengyu"><span>风雨如磐网站仓库</span><span class="arrow" aria-hidden="true">↗</span></a></li>
-        <li><a href="https://github.com/airdiode/Quileg-STM32"><span>Quileg STM32 仓库</span><span class="arrow" aria-hidden="true">↗</span></a></li>
+        <li>
+          <a href="https://airdiode.github.io/Fengyu/">
+            <img src="assets/fengyu-mark.svg" alt="" width="40" height="40">
+            <span class="pl-text">
+              <span class="pl-name">风雨如磐</span>
+              <span class="pl-desc">近代中国的信息底图 · 公开预告</span>
+            </span>
+            <span class="pl-go" aria-hidden="true">→</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://airdiode.github.io/Quileg-STM32/">
+            <img src="assets/quileg-stm32.svg" alt="" width="40" height="40">
+            <span class="pl-text">
+              <span class="pl-name">Quileg STM32</span>
+              <span class="pl-desc">前两代硬件的开源归档 · MIT</span>
+            </span>
+            <span class="pl-go" aria-hidden="true">→</span>
+          </a>
+        </li>
+
       </ul>
     </div>
   </section>
@@ -222,76 +97,13 @@
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-grid">
-      <div class="foot-brand">
-        <div class="brand">
-          <img src="assets/mark.svg" alt="">
-          <span>airdiode</span>
-        </div>
-        <p class="foot-tagline">两件工具，一张底图。</p>
-
-        <div class="foot-about">
-          <p class="foot-about-lead">AIRDIODE · 独立开发</p>
-          <p>其他作品与项目见 <a href="https://www.godar.cn" target="_blank" rel="noopener">godar.cn</a>。</p>
-          <p>问题、建议或合作：<a href="mailto:contact@airdiode.com">contact@airdiode.com</a></p>
-        </div>
-      </div>
-
-      <nav aria-label="本站">
-        <a href="#products">作品</a>
-        <a href="#how">做法</a>
-        <a href="#about">关于</a>
-        <a href="https://github.com/airdiode">GitHub</a>
-      </nav>
-
-      <nav aria-label="相关链接">
-        <a href="https://airdiode.github.io/Guyun/">孤云 Guyun</a>
-        <a href="https://airdiode.github.io/Fengyu/">风雨如磐</a>
-        <a href="https://airdiode.github.io/Quileg-STM32/">Quileg STM32</a>
-        <a href="https://www.godar.cn" target="_blank" rel="noopener">作者主页</a>
-        <a href="en/" hreflang="en" lang="en">English</a>
-      </nav>
-    </div>
-
-    <p class="legal">
-      © <span id="year">2026</span> airdiode. 保留所有权利。孤云为免费提供的软件。<br>
-      请在你自己有权管理的存储与账号范围内使用；请遵守所选服务商的服务条款。软件按「现状」提供，不附带任何明示或暗示的担保。
-    </p>
-    <p class="legal trademark">与 Apple Inc. 无隶属关系。Apple、iPhone、iPad、macOS、App Store 等是 Apple Inc. 的商标。</p>
+  <div class="wrap footer-line">
+    <span>© <span id="year">2026</span> JIANG HUI</span>
+    <a href="https://github.com/airdiode">GitHub</a>
+    <a href="https://www.godar.cn/">godar.cn</a>
+    <a href="en/" hreflang="en" lang="en">English</a>
   </div>
 </footer>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "SoftwareApplication",
-      "name": "孤云 Guyun",
-      "applicationCategory": "UtilitiesApplication",
-      "operatingSystem": "iOS, iPadOS, macOS",
-      "description": "连接你自己 S3 兼容对象存储的文件管理器。",
-      "url": "https://airdiode.github.io/Guyun/",
-      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY"}
-    },
-    {
-      "@type": "WebSite",
-      "name": "风雨如磐",
-      "description": "近代中国（1840–1949）的信息底图，公开预告，地图与检索尚未开放。",
-      "url": "https://airdiode.github.io/Fengyu/"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "Quileg STM32",
-      "description": "前两代 Quileg 键鼠模拟器的固件、网页上位机与串口协议，以 MIT 开源归档。",
-      "codeRepository": "https://github.com/airdiode/Quileg-STM32",
-      "license": "https://opensource.org/licenses/MIT",
-      "programmingLanguage": "C"
-    }
-  ]
-}
-</script>
 
 <script>
 document.getElementById("year").textContent = new Date().getFullYear();
