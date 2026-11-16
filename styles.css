@@ -238,6 +238,7 @@ code {
 
 .card-guyun { --accent: var(--guyun); --accent-soft: var(--guyun-soft); }
 .card-fengyu { --accent: #8a5a3b; --accent-soft: #f3ece4; }
+.card-stm32 { --accent: #1f6bff; --accent-soft: #eef4ff; }
 /* 只有一件产品时，卡片整行铺开：左边叙事、右边事实与入口 */
 .card-wide {
   grid-column: 1 / -1;
@@ -504,6 +505,11 @@ code {
   }
   .card { padding: 26px 22px 22px; }
   .tagline { font-size: 18px; }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card-fengyu { --accent: #c99a72; --accent-soft: #2a2018; }
+  .card-stm32 { --accent: #7ea6ff; --accent-soft: #16203a; }
 }
 
 @media (prefers-reduced-motion: reduce) {
