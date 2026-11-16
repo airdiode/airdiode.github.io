@@ -3,8 +3,17 @@
 GitHub Pages 的用户站点，对应 <https://airdiode.github.io/>。
 仓库名必须是 `airdiode.github.io`，Pages 才会挂在根域名上。
 
-主页放**两件作品**：孤云（站点在 `airdiode/Guyun`）、风雨如磐（站点在 `airdiode/Fengyu`，预告页）。
-两个产品站点的旧仓库已随旧账号一起删除，这里不再引用它们。
+主页是**三件作品**的索引：
+
+| 作品 | 站点 | 状态 |
+|---|---|---|
+| 孤云 Guyun | `/Guyun/`（仓库 `airdiode/Guyun`） | 已上架 |
+| 风雨如磐 Fengyu | `/Fengyu/`（仓库 `airdiode/Fengyu`） | 预告，在建 |
+| Quileg STM32 | `/Quileg-STM32/`（仓库 `airdiode/Quileg-STM32`） | 开源归档 |
+
+每件作品一张通栏卡（`.card-wide`）：左边图标 + 名称 + 一句话 + 说明，右边列事实与入口。
+三张卡各有一个强调色：青绿（孤云）、赭石（风雨如磐）、蓝（STM32）。
+状态写在 kicker 那一行（已上架 / 公开预告 / 已归档），不加额外的徽章。
 
 ## 文件
 
@@ -15,7 +24,9 @@ styles.css        全部样式，含深色模式、页脚、.card-wide（单卡�
 assets/mark.svg   站点标记（青绿两方块）与 favicon
 assets/og.png     中文分享卡片图 1200×630
 assets/og-en.png  英文分享卡片图
-assets/guyun-icon.png  孤云的应用图标
+assets/guyun-icon.png   孤云的应用图标
+assets/fengyu-mark.svg  风雨如磐的标志
+assets/quileg-stm32.svg Quileg STM32 的图标
 og.html           og.png 的源文件，用浏览器截图得到，不对外链接
 og-en.html        og-en.png 的源文件
 ```
@@ -26,7 +37,8 @@ og-en.html        og-en.png 的源文件
 ## 改内容
 
 - 文案、链接：改 `index.html` 与 `en/index.html`
-- 颜色：`styles.css` 顶部 `:root`；品牌色是 `--guyun`（青绿），深色模式在下面的媒体查询里
+- 颜色：`styles.css` 顶部 `:root`；品牌色 `--guyun`，另两件用 `.card-fengyu` / `.card-stm32` 的 `--accent`
+- 加一件作品：复制一张 `article.card.card-wide`，给它一个 `--accent`，再补关于、页脚、JSON-LD 与分享图
 - 换图标：覆盖 `assets/guyun-icon.png`
 - 分享图要重出时：
 
