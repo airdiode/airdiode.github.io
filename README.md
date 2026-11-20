@@ -14,6 +14,7 @@ GitHub Pages 的用户站点，对应 <https://airdiode.github.io/>。
 |---|---|
 | 孤云 Guyun | `/Guyun/`（仓库 `airdiode/Guyun`） |
 | 风雨如磐 | `/Fengyu/`（仓库 `airdiode/Fengyu`） |
+| 百年账本 | `/ledger/`（风雨如磐的配套子项目） |
 | Quileg STM32 | `/Quileg-STM32/`（仓库 `airdiode/Quileg-STM32`） |
 
 加一个产品：在 `<ul class="product-list">` 里复制一个 `<li>`，填名称、一句说明和链接即可；
@@ -30,6 +31,7 @@ assets/og.png     中文分享卡片图 1200×630
 assets/og-en.png  英文分享卡片图
 assets/guyun-icon.png   孤云的应用图标
 assets/fengyu-mark.svg  风雨如磐的标志
+assets/ledger-mark.svg  百年账本的标志
 assets/quileg-stm32.svg Quileg STM32 的图标
 assets/xhs-qr.png       小红书二维码（带中心 logo 的官方码，512px）
 og.html           og.png 的源文件，用浏览器截图得到，不对外链接
