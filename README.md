@@ -6,7 +6,8 @@ GitHub Pages 的用户站点，对应 <https://airdiode.github.io/>。
 主页只做一件事：**罗列产品**，不写总结也不写分析。
 
 - 题头：一句「欢迎来到 JIANG HUI 的产品集」，下面两个入口——GitHub 与个人官网 godar.cn
-- 产品：三行清单（`.product-list`），每行是图标 + 名称 + 一句说明 + 箭头
+- 产品：四行清单（`.product-list`），每行是图标 + 名称 + 类型标签 + 一句说明 + 箭头；
+  类型标签 `.pl-tag.pl-type`（App / 网页 / 硬件），语言标签 `.pl-tag`（英文页的中文项目标「中文」）
 - 联系（`#contact`）：邮箱 + 小红书二维码（`assets/xhs-qr.png`，码指向 `xhslink.com/m/8WSrYCLF1yk`）
 - 页脚：一行版权与链接
 

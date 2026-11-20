@@ -559,6 +559,13 @@ code {
   color: var(--muted); border: 1px solid var(--line); border-radius: 999px;
   vertical-align: 2px;
 }
+
+/* 类型标签（App / 网页 / 硬件）：实心一点，和语言标签区分开 */
+.pl-type {
+  border-color: transparent;
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
+  color: var(--ink); font-weight: 600;
+}
 .pl-go { margin-left: auto; color: var(--muted); transition: transform 0.15s ease, color 0.15s ease; }
 .product-list a:hover .pl-go { color: var(--ink); transform: translateX(3px); }
 
